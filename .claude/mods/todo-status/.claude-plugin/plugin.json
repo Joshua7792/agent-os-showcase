@@ -1,0 +1,6 @@
+{
+  "name": "todo-status",
+  "version": "0.1.0",
+  "description": "Read-only project status from tasks/todo.md: current phase, next step, items waiting on the owner and open worktrees, in a pane and the status line.",
+  "types": "./types/index.d.ts"
+}

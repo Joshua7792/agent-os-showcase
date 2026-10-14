@@ -1,0 +1,4 @@
+# gitleaks config: keeps EVERY default rule. Add an allowlist entry only for a false positive inspected by hand,
+# with the evidence in its description; never widen a rule.
+[extend]
+useDefault = true

@@ -1,0 +1,14 @@
+{
+  "artifact": "",
+  "outcomes": [
+    { "id": "O1", "name": "Business / Income", "goal": "Ship things that can generate income." },
+    { "id": "O2", "name": "Dashboard product", "goal": "Installable, deployable dashboard that standardizes across projects." },
+    { "id": "O3", "name": "Live Trading Agent", "goal": "Risk-controlled and phased: prototype, backtest and paper, then guarded live." },
+    { "id": "O4", "name": "Productivity / OS", "goal": "The operating system itself, plus craft and growth." }
+  ],
+  "projects": [
+    { "id": "example-project", "label": "Example project", "outcome": "O4", "primary": true,
+      "file": "tasks/example-project/todo.md" },
+    { "id": "os-log", "label": "OS log", "outcome": "O4", "file": "tasks/todo.md" }
+  ]
+}

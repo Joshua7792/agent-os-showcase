@@ -1,0 +1,9 @@
+# Sparse-checkout profile for `worktree.sh new <name> --sparse example`.
+# One repo-root-relative path per line (leading slash, trailing slash for folders). Lines starting with # are ignored.
+# A lane only needs its own code, its todo/design notes and the shared operating files.
+/tools/
+/tasks/example-project/
+/.claude/
+/AGENTS.md
+/CLAUDE.md
+/.gitignore

@@ -1,0 +1,19 @@
+# parallel-lane worktrees (created and deleted by .claude/scripts/worktree.sh)
+.worktrees/
+
+# secrets and local state
+.env
+.env.*
+memory/
+*.local.json
+
+# generated
+__pycache__/
+*.pyc
+node_modules/
+.claude/mods/*/.claude-plugin/types/
+
+# os / tools
+*.stackdump
+.DS_Store
+Thumbs.db
